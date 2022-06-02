@@ -30,7 +30,7 @@ namespace PasswordBasic
             }
             else
             {
-                DialogResult response = MessageBox.Show("Password Incorrect", "Access Denied", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                DialogResult response = MessageBox.Show("Password Incorrect.", "Access Denied.", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
                 if (response == DialogResult.Retry)
                 {
                     txtPassword.SelectionStart = 0;
