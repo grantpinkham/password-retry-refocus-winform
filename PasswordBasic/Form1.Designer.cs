@@ -70,7 +70,7 @@
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(295, 31);
             this.txtPassword.TabIndex = 0;
-            this.txtPassword.Tag = "Password";
+            this.txtPassword.Tag = "password";
             // 
             // Form1
             // 
